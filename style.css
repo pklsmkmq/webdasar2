@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: sans-serif;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+h2,
+h3 {
+    color: #00a2c6
+}
+
+.profile header {
+    text-align: center;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Css Jarak */
+/* 
+    Padding : Jarak Dalam
+    Margin  : Jarak Luar
+*/
+
+.box {
+    /* margin keseluruhan atas, kanan, bawah, kiri */
+    margin: 20px;
+    /* 10px atas bawah 20px kiri kanan */
+    margin: 10px 20px;
+    /* 10px atas 20px kanan 30px bawah 40 kiri */
+    margin: 10px 20px 30px 40px;
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    /* membuat suatu berada di tengah tapi dengan syarat
+    harus sudah tersedia hight & widht sebelumnya */
+    margin: auto;
+
+    margin: 20px auto;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="main.js" method="POST">
+    <!-- 
+        GET = pengiriman data yang bisa kita lihat index.html?data1=abc&data2=dhakdhakdh
+        POST = pengiriman data yang tidak bisa kita lihat
+    -->
+    <fieldset>
+        <legend>Login</legend>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="username" placeholder="username..." value="abdulaziz"/>
+        </p>
+        
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="password..." />
+        </p>
+        <p>
+            <label><input type="checkbox" name="remember" value="remember" /> Remember me</label>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Login" />
+        </p>
+        </fieldset>
+    </form>
+
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <legend>Registrasi</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="nama" placeholder="Nama lengkap..." />
+        </p>
+        <p>
+            <label>Username:</label>
+            <input type="text" name="username" placeholder="Username..." />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Your email..." />
+        </p>
+        <p>
+            <label>Password:</label>
+            <input type="password" name="password" placeholder="Passowrd..." />
+        </p>
+        <p>
+            <label>Jenis kelamin:</label>
+            <label><input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki</label>
+            <label><input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan</label>
+        </p>
+        <p>
+            <label>Agama:</label>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+        </p>
+        <p>
+            <label>Biografi:</label>
+            <textarea name="biografi"></textarea>
+        </p>
+        <p>
+            <input type="submit" name="submit" value="Daftar" />
+        </p>
+        </fieldset>
+    </form>
+</body>
+</html>

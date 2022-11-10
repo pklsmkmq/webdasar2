@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- internal css -->
+    <style>
+        *{
+            /* besarkan tulisan */
+            font-size: 20px;
+            /* bingkai 1px buat ketebalan solid jenis garis sisanya warna */
+            border: 1px solid rgb(255, 255, 255);
+        }
+        body{
+            /* merubah jenis tulisan font */
+            font-family: monospace;
+            background-color: darkblue;
+        }
+        h1{
+            color: white;
+            text-align: center;
+        }
+        p{
+            color: cyan;
+            /* Pengaturan tulisan */
+            text-align: justify;
+            /* Ketebalan huruf */
+        }
+
+        .text-green{
+            color: greenyellow;
+        }
+
+        #judul{
+            color: orange;
+        }
+
+        input[type=text]{
+            background: red;
+            color: white;
+        }
+
+        input[type=password]{
+            background: yellow;
+            color: blue;
+        }
+
+        /* hover ketika mouse diarahkan ke suatu object */
+        p:hover{
+            /* !important memaksa css ini agar dijalankan */
+            color: white !important;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text-green" id="judul">Latihan CSS</h1>
+    <!-- menjadi warna abu2 & justify -->
+    <p class="text-green">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, non! Magnam debitis quo harum, autem libero doloribus voluptatibus temporibus sunt iure. Corrupti eaque dolore quia dolor ut quos facere ex!</p>
+
+    <!-- inline css -->
+    <h2 style="color: aqua;">Contoh InLine CSS</h2>
+    <p style="color: red;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse voluptatem a, harum, nemo incidunt sint accusamus rerum mollitia cumque, quae repellat deserunt voluptatibus animi impedit architecto cum veritatis dicta libero?</p>
+
+    <input type="text" name="" id="">
+    <input type="password" name="">
+
+    
+</body>
+</html>
